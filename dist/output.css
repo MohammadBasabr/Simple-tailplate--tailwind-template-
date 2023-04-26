@@ -583,12 +583,28 @@ video {
   margin-top: 25px;
 }
 
+.mt-\[40px\] {
+  margin-top: 40px;
+}
+
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
 .h-\[550px\] {
   height: 550px;
 }
 
 .h-\[55px\] {
   height: 55px;
+}
+
+.h-\[700px\] {
+  height: 700px;
+}
+
+.h-\[600px\] {
+  height: 600px;
 }
 
 .w-\[450px\] {
@@ -601,6 +617,10 @@ video {
 
 .rounded-\[20px\] {
   border-radius: 20px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border {
@@ -616,12 +636,38 @@ video {
   background-color: rgba(0,0,0,0.5);
 }
 
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#373837\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 56 55 / var(--tw-bg-opacity));
+}
+
+.bg-\[rgba\(255\2c 0\2c 0\2c \.3\)\] {
+  background-color: rgba(255,0,0,.3);
+}
+
+.bg-\[rgba\(135\2c 135\2c 135\2c \.3\)\] {
+  background-color: rgba(135,135,135,.3);
+}
+
 .bg-\[url\(\'\.\.\/images\/background\.png\'\)\] {
   background-image: url('../images/background.png');
 }
 
+.bg-\[url\(\'\.\.\/images\/bg\.jpg\'\)\] {
+  background-image: url('../images/bg.jpg');
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
 }
 
 .bg-center {
@@ -647,6 +693,36 @@ video {
   padding-right: 10px;
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+.py-\[50\%\] {
+  padding-top: 50%;
+  padding-bottom: 50%;
+}
+
+.py-\[80px\] {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.px-\[120px\] {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.py-\[100px\] {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .pt-\[35px\] {
   padding-top: 35px;
 }
@@ -655,12 +731,20 @@ video {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .font-Lalezar {
   font-family: Lalezar;
 }
 
 .text-\[60px\] {
   font-size: 60px;
+}
+
+.text-\[35px\] {
+  font-size: 35px;
 }
 
 .leading-\[55px\] {
@@ -675,6 +759,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.bg-blend-multiply {
+  background-blend-mode: multiply;
 }
 
 * {
@@ -719,6 +807,11 @@ body{
 
 .\[\&_img\]\:w-full img {
   width: 100%;
+}
+
+.\[\&_li\]\:mx-\[10px\] li {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .\[\&_li\]\:inline-block li {
