@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Byekan;
+    src: url('../fonts/Byekan.ttf') format('truetype'),
+        url('../fonts/Byekan.woff') format('woff');
+}
+
+@font-face {
+    font-family: Lalezar;
+    src: url('../fonts/lalezar.ttf') format('truetype'),
+        url('../fonts/lalezar.woff') format('truetype');
+}
+
+body{
+    font-family: 'Byekan';
+}
